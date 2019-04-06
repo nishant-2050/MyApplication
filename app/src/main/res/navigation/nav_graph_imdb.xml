@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/tmdbListFragment">
+
+
+    <fragment
+        android:id="@+id/tmdbListFragment"
+        android:name="com.nis.myapplication.tmdb.ui.TmdbListFragment"
+        android:label="TmdbListFragment" >
+        <action
+            android:id="@+id/action_tmdbListFragment_to_tmdbDetailFragment"
+            app:destination="@id/tmdbDetailFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/tmdbDetailFragment"
+        android:name="com.nis.myapplication.tmdb.ui.TmdbDetailFragment"
+        android:label="TmdbDetailFragment">
+        <argument
+            android:name="selectedId"
+            app:argType="integer"
+            android:defaultValue="0"
+            />
+    </fragment>>
+</navigation>

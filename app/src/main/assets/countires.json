@@ -1,0 +1,29 @@
+{
+  "countries": [
+    {
+      "code": "+123",
+      "name": "Aaa"
+    },{
+      "code": "+1234",
+      "name": "Abc"
+    },{
+      "code": "+121",
+      "name": "ccc"
+    },{
+      "code": "+666",
+      "name": "ddd"
+    },{
+      "code": "+129",
+      "name": "eee"
+    },{
+      "code": "+333",
+      "name": "fff"
+    },{
+      "code": "+999",
+      "name": "ggg"
+    },{
+      "code": "+989",
+      "name": "hhh"
+    }
+  ]
+}
